@@ -1,0 +1,59 @@
+/* CSS RESETS  */
+html {
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ol,
+ul {
+  margin: 0;
+  padding: 0;
+  font-weight: normal;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* container */
+.container {
+  display: flex;
+  max-width: 600px;
+  margin: 0 auto;
+  border: 1px solid yellow;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 15px;
+}
+
+/* HEADER */
+.logo {
+  height: 75px;
+  width: auto;
+}
+
+.user-avatar {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  object-fit: cover;
+}
